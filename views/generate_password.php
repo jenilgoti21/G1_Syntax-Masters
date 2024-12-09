@@ -1,5 +1,5 @@
 <?php
-$password = 'g1_syntax_masters';
+$password = 'admin@123';
 
 // Hash the password using bcrypt
 $hashed_password = password_hash($password, PASSWORD_BCRYPT);
