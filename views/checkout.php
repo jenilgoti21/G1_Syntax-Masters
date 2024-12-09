@@ -127,7 +127,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $zip_code = $_POST['zip_code'];
         if (!is_valid_zip($zip_code)) {
-            $errors[] = "<p>Error!! Zip code must be 5 digits.</p>";
+            $errors[] = "<p>Error!! Zip code must be 6 digits.</p>";
         }
     }
 
